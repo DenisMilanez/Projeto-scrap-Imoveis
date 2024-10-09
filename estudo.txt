@@ -2,9 +2,9 @@
 # escopo: Venda/Aluguel/Lançamentos, Bairro Noroeste, ordenado por anúncios recentes
 
 # url's:
-https://www.dfimoveis.com.br/venda/df/brasilia/noroeste/imoveis
-https://www.dfimoveis.com.br/aluguel/df/brasilia/noroeste/imoveis
-https://www.dfimoveis.com.br/lancamento/df/brasilia/noroeste/imoveis
+https://www.dfimoveis.com.br/venda/df/brasilia/noroeste/imoveis?&ordenamento=mais-recente
+https://www.dfimoveis.com.br/aluguel/df/brasilia/noroeste/imoveis?&ordenamento=mais-recente
+https://www.dfimoveis.com.br/lancamento/df/brasilia/noroeste/imoveis?&ordenamento=mais-recente
 
 # Diferença entre anúncios:
 o atributo class do elemento <a> é diferente para anúncio de construtora (class="new-card newone") e corretores (class="new-card").
@@ -20,3 +20,7 @@ OBS: Caso fique offline, o efeito ocorre mas os anúncios são os mesmos da pág
 
 # Obstruções Visuais:
 Aceiar cookies / Login google
+
+# Outros Comportamentos
+Caso a conexão caia antes de chegar a última página, o botão continuará passando de página porém os anúncios carregados serão os mesmos que da última vez.
+
